@@ -669,8 +669,10 @@
 
 <script>
 import carousel from 'v-owl-carousel'
+import aosMixin from '~/mixins/aos'
 export default {
   components: { carousel },
+  mixins: [aosMixin],
   data() {
     return {
       options: {
